@@ -1,4 +1,4 @@
 import './style.css';
-import loadPageContent from "./pageContent";
+import onHomeClick from "./pageContent";
 
-loadPageContent();
+onHomeClick();
