@@ -6,7 +6,7 @@ export function onHomeClick() {
   document.querySelector("#contact").classList.remove("font-extrabold");
 
   const contentElement = document.querySelector("#content");
-  contentElement.setAttribute("class", "flex flex-wrap");
+  contentElement.setAttribute("class", "flex");
   contentElement.innerHTML = "";
 
   const imageElement = document.createElement("img");
